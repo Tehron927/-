@@ -1,0 +1,151 @@
+header{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+body{
+    overflow: hidden;
+}
+
+.img img{
+    width: 200px;
+}
+
+.btn button{
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: .3s;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.btn button:hover{
+    background-color: #fff;
+    border: 2px solid blue;
+    color: blue;
+    font-weight: 500;
+}
+
+.logo img{
+    width: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.head p{
+    font-size: 34px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+.head{
+    padding-left: 20px;
+}
+
+
+.menu{
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    right: -70%;
+    top: 25%;
+    background-color: rgba(175, 175, 175, 0.527);
+    border-radius: 13px;
+    transition: right 0.5s ease, top 0.5s ease;
+}
+
+.menu.active {
+    right: 35%;
+    top: 25%;
+}
+
+
+
+.menu button{
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+
+.input{
+    padding-left: 20px;
+}
+
+.one{
+    width: 400px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.lb2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: gray;
+    padding-bottom:10px ;
+}
+
+
+.lb{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: gray;
+    padding-bottom:10px ;
+}
+
+.two{
+    width: 400px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 35px;
+}
+
+.inpbtn{
+ position: relative;
+ right: 1%;
+}
+
+.inpbtn button{
+background-color: blue;
+width: 400px;
+height:70px ;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+color: white;
+font-size: 16px;
+border-radius: 20px;
+}
